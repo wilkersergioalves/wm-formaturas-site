@@ -1,0 +1,4 @@
+
+VERSÃO 7
+- Substituída somente a imagem hero-mobile.jpg pela nova versão recortada fornecida pelo usuário.
+- CSS, desktop e demais elementos preservados da v6.
