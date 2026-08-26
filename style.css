@@ -18,3 +18,93 @@
   box-shadow:0 0 26px rgba(228,154,22,.22);
 }
 .final-actions .btn-large small{color:inherit}
+
+/* V5 — correções EXCLUSIVAMENTE MOBILE: Hero + CTA final */
+@media (max-width:760px){
+  /* HERO: preserva a foto original, desloca o rosto para a borda direita
+     e posiciona todo o conteúdo no topo/esquerda. */
+  .hero{
+    height:690px;
+  }
+  .hero-bg{
+    background-size:cover;
+    background-position:53% center;
+  }
+  .hero-overlay{
+    background:
+      linear-gradient(90deg,rgba(0,0,0,.74) 0%,rgba(0,0,0,.56) 48%,rgba(0,0,0,.12) 78%,rgba(0,0,0,.02) 100%),
+      linear-gradient(180deg,rgba(0,0,0,.34) 0%,rgba(0,0,0,.08) 56%,rgba(0,0,0,.50) 100%);
+  }
+  .hero-content{
+    display:block;
+    height:100%;
+    padding-top:36px;
+    padding-bottom:0;
+  }
+  .hero-copy{
+    width:100%;
+    max-width:350px;
+  }
+  .eyebrow{
+    font-size:10px;
+    line-height:1.25;
+    max-width:300px;
+    margin-bottom:8px;
+  }
+  .hero h1{
+    font-size:47px;
+    line-height:.90;
+    margin-bottom:16px;
+  }
+  .hero-text{
+    width:100%;
+    max-width:310px;
+    font-size:11px;
+    line-height:1.55;
+    margin-bottom:22px;
+  }
+  .hero-btn{
+    width:100%;
+    max-width:315px;
+    padding:14px 17px;
+    font-size:11px;
+  }
+  .signature{
+    width:180px;
+    margin-top:22px;
+  }
+
+  /* CTA: a arte contém o título. No mobile ela deixa de usar cover.
+     Reservamos uma faixa proporcional para a arte inteira e colocamos
+     os botões em uma área preta logo abaixo, sem cobrir o texto. */
+  .final-cta{
+    height:auto;
+    min-height:0;
+    padding-top:clamp(185px,48vw,300px);
+    background:#030303;
+    overflow:hidden;
+  }
+  .final-cta-bg{
+    background-color:#030303;
+    background-size:auto clamp(185px,48vw,300px);
+    background-position:center top;
+    background-repeat:no-repeat;
+  }
+  .final-cta-content{
+    height:auto;
+    display:block;
+    padding-top:22px;
+    padding-bottom:28px;
+  }
+  .final-actions{
+    flex-direction:column;
+    width:100%;
+    max-width:360px;
+    gap:12px;
+    margin:0 auto;
+  }
+  .btn-large{
+    min-width:0;
+    width:100%;
+  }
+}

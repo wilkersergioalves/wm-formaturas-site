@@ -1,0 +1,13 @@
+VERSÃO 5 — SOMENTE MOBILE
+
+1. Hero mobile:
+   - conteúdo reposicionado para o topo/esquerda;
+   - enquadramento da foto alterado apenas no mobile;
+   - overlay ajustado para legibilidade sem cobrir o rosto;
+   - botão e assinatura reequilibrados.
+
+2. CTA final mobile:
+   - removido o comportamento de background-size: cover no mobile;
+   - arte preservada com escala proporcional e centralizada;
+   - botões movidos para uma faixa preta abaixo da arte;
+   - nenhum texto, link, imagem, card, mosaico, fonte, cor ou layout desktop foi alterado.
