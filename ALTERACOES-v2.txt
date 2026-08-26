@@ -1,0 +1,5 @@
+V2 — ALTERAÇÕES SOLICITADAS
+1. "INÍCIO" agora aponta diretamente para o topo do Hero.
+2. Em "O QUE FOTOGRAFAMOS", as imagens dos cards 3 e 4 foram corrigidas: VÍDEOS usa a câmera; ENSAIOS E OUTROS usa a formanda.
+3. CTA final: removido o texto HTML que estava sobre a imagem, pois o texto já existe na própria arte.
+4. CTA final: botões reposicionados mais para baixo.
