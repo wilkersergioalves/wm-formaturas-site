@@ -1,0 +1,7 @@
+VERSÃO 8 — AJUSTE HERO MOBILE
+- Desktop preservado integralmente.
+- Hero mobile passa a usar a altura útil da viewport (100svh - cabeçalho).
+- Foto mobile usa background-size: contain para evitar zoom excessivo.
+- Foto permanece alinhada ao topo; área excedente fica preta.
+- Texto, CTA e assinatura foram compactados e ancorados na parte inferior para aparecerem na primeira tela.
+- Nenhuma alteração em links, cards, mosaico, CTA final ou demais seções.

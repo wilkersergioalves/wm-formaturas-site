@@ -183,3 +183,83 @@
   .hero-btn{max-width:310px}
   .signature{width:140px}
 }
+
+/* V8 — ajuste final do HERO exclusivamente no MOBILE.
+   Objetivo: mostrar a composição principal + texto já na primeira tela,
+   sem ampliar excessivamente a fotografia e sem alterar o desktop. */
+@media (max-width:760px){
+  .hero{
+    height:calc(100vh - 68px);
+    height:calc(100svh - 68px);
+    min-height:0;
+    background:#030303;
+  }
+  .hero-bg{
+    background-image:url('assets/hero-mobile.jpg');
+    background-size:contain;
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-color:#030303;
+  }
+  .hero-overlay{
+    background:linear-gradient(
+      180deg,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0) 48%,
+      rgba(0,0,0,.12) 58%,
+      rgba(0,0,0,.70) 72%,
+      rgba(0,0,0,.96) 100%
+    );
+  }
+  .hero-content{
+    height:100%;
+    display:flex;
+    align-items:flex-end;
+    padding-top:0;
+    padding-bottom:12px;
+  }
+  .hero-copy{
+    width:100%;
+    max-width:none;
+  }
+  .eyebrow{
+    font-size:8.5px;
+    line-height:1.15;
+    margin-bottom:5px;
+  }
+  .hero h1{
+    font-size:35px;
+    line-height:.86;
+    margin-bottom:8px;
+  }
+  .hero-text{
+    max-width:320px;
+    font-size:9px;
+    line-height:1.35;
+    margin-bottom:10px;
+  }
+  .hero-btn{
+    max-width:310px;
+    padding:10px 14px;
+    font-size:9px;
+  }
+  .hero-btn .arrow{
+    font-size:22px;
+  }
+  .signature{
+    width:118px;
+    margin-top:8px;
+  }
+}
+
+@media (max-width:390px){
+  .hero{
+    height:calc(100vh - 68px);
+    height:calc(100svh - 68px);
+    min-height:0;
+  }
+  .hero h1{font-size:32px}
+  .hero-text{max-width:295px;font-size:8.5px}
+  .hero-btn{max-width:295px;padding:9px 13px}
+  .signature{width:108px;margin-top:7px}
+}
