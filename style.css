@@ -195,8 +195,8 @@
     background:#030303;
   }
   .hero-bg{
-    background-image:url('assets/hero-mobile.jpg');
-    background-size:contain;
+    background-image:url('assets/hero-mobile.png');
+    background-size:cover;
     background-position:center top;
     background-repeat:no-repeat;
     background-color:#030303;

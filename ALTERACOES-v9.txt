@@ -1,0 +1,5 @@
+VERSÃO 9
+- HERO mobile usa novamente a fotografia original enviada pelo cliente.
+- Mantido o enquadramento/posicionamento do texto aprovado na v8.
+- background-size alterado de contain para cover somente no mobile, eliminando as faixas verticais pretas.
+- Desktop e demais seções preservados.
