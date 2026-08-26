@@ -1,0 +1,7 @@
+VERSÃO 6
+- Hero mobile usa uma fotografia vertical exclusiva: assets/hero-mobile.jpg.
+- A fotografia desktop permanece inalterada.
+- Texto do Hero mobile alinhado à faixa inferior, abaixo do rosto e do busto da formanda.
+- Gradiente inferior reforça legibilidade somente na área do texto.
+- Mantidas as correções mobile do CTA da v5.
+- Nenhuma alteração nas demais seções, links ou versão desktop.
