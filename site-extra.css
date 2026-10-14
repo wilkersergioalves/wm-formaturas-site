@@ -1,0 +1,89 @@
+
+/* WM — Protótipo multipáginas; mantém a linguagem original */
+.nav{gap:clamp(12px,2vw,27px)}.nav a{font-size:10px;white-space:nowrap}.nav-wrap{gap:16px}.brand img{width:165px}.site-header .btn-small{padding:9px 11px}
+.inner-hero{padding:105px 0 90px;background:linear-gradient(115deg,rgba(0,0,0,.95),rgba(0,0,0,.55)),url('assets/hero.png') center 35%/cover;border-bottom:1px solid #63420c}.inner-hero .container{max-width:1100px}.page-kicker{color:var(--gold2);font-size:11px;font-weight:700;letter-spacing:.21em}.inner-hero h1{font:700 clamp(48px,7vw,90px)/.95 'Cormorant Garamond',serif;margin:12px 0 20px}.inner-hero p:last-child{max-width:590px;font-size:14px;line-height:1.85;color:#dedede}.inner-section{padding:80px 0}.inner-section.soft{background:#0e0d0b}.inner-section h2,.inner-cta h2{font:600 clamp(31px,4vw,54px)/1.04 'Cormorant Garamond',serif}.inner-section p{line-height:1.85;color:#d5d2cc;font-size:13px}.split{display:grid;grid-template-columns:1.15fr 1fr;gap:65px;align-items:center}.split>img{width:100%;height:460px;object-fit:cover}.text-link{display:inline-block;color:var(--gold2);font-size:12px;font-weight:700;margin-top:18px}.center-title{text-align:center;margin:0 0 40px}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.feature-grid article{padding:30px;border:1px solid #46300c;background:#090909}.feature-grid span{color:var(--gold);font:700 35px 'Cormorant Garamond',serif}.feature-grid h3{color:var(--gold2);font-size:14px}.inner-cta{text-align:center;padding:80px 0;background:linear-gradient(#111,#050505);border-top:1px solid #30210b}.inner-cta .btn{padding:16px 28px;margin-top:15px;font-size:12px}.filter-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}.filter{background:#0d0d0d;border:1px solid #403017;color:#ccc;padding:12px 18px;cursor:pointer;font:600 10px Montserrat,sans-serif}.filter.active,.filter:hover{background:var(--gold);color:#090909}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallery-item{padding:0;border:1px solid #34240b;background:#111;color:white;cursor:pointer;text-align:left;overflow:hidden}.gallery-item img{width:100%;height:265px;object-fit:cover;transition:transform .25s}.gallery-item:hover img{transform:scale(1.045)}.gallery-item span{display:flex;justify-content:space-between;padding:15px;font:600 11px Montserrat,sans-serif}.gallery-item b{color:var(--gold)}.prototype-note{font-size:11px!important;color:#999!important;margin-top:20px}.lightbox[hidden],.video-player[hidden]{display:none}.lightbox{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.97);display:flex;align-items:center;justify-content:center}.lightbox figure{width:min(82vw,1100px);margin:0;text-align:center}.lightbox figure img{max-width:100%;max-height:78vh;margin:auto;object-fit:contain}.lightbox figcaption{padding:15px;color:#ddd;font-size:12px}.lightbox button{background:transparent;border:0;color:white;cursor:pointer;font-size:55px;padding:10px}.lightbox-close{position:absolute;right:25px;top:15px}.lightbox-prev{position:absolute;left:12px}.lightbox-next{position:absolute;right:12px}.video-demo{display:grid;grid-template-columns:1fr 1fr;background:#111;border:1px solid #392b15}.video-poster{position:relative;min-height:380px}.video-poster img{width:100%;height:100%;object-fit:cover}.poster-mark{position:absolute;bottom:20px;left:25px;font:600 28px 'Cormorant Garamond',serif;text-shadow:0 2px 8px black}.poster-mark span{display:block;font:600 11px Montserrat,sans-serif;color:var(--gold2);letter-spacing:.2em}.video-info{padding:45px}.video-info label{display:block;font-size:10px;font-weight:700;color:var(--gold);margin:24px 0 9px}.video-form{display:flex;gap:8px}.video-form input{min-width:0;flex:1;padding:12px;background:#070707;color:white;border:1px solid #765319;font:11px Montserrat,sans-serif}.video-form button{border:0;background:var(--gold);font:700 10px Montserrat,sans-serif;cursor:pointer;padding:10px}.video-feedback{font-size:10px!important}.video-player{margin-top:35px;text-align:center}.player-wrap{aspect-ratio:16/9;max-width:900px;margin:auto}.player-wrap iframe{width:100%;height:100%;border:0}.about-signature{max-width:210px;margin-top:30px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.contact-button{padding:18px 24px;margin:25px 0 10px;font-size:12px}.contact-grid .text-link{display:block}.contact-panel{background:#10100f;border:1px solid #4e350f;padding:35px}.contact-panel h3{color:var(--gold);font-size:15px}.contact-panel li{font-size:12px;margin:14px 0;color:#dedede}.site-header{z-index:60}
+@media(max-width:1100px){.nav{gap:12px}.nav a{font-size:9px}.brand img{width:135px}.site-header .btn-small{font-size:8px}}
+@media(max-width:760px){.nav{gap:0}.nav a{font-size:12px}.brand img{width:150px}.inner-hero{padding:75px 0 65px}.inner-section{padding:50px 0}.split,.video-demo,.contact-grid{grid-template-columns:1fr;gap:30px}.split>img{height:300px}.feature-grid,.gallery-grid{grid-template-columns:1fr}.gallery-item img{height:290px}.video-poster{min-height:260px}.video-info{padding:25px}.lightbox figure{width:80vw}.lightbox button{font-size:38px}.lightbox-close{right:8px;top:8px}.inner-cta{padding:55px 0}}
+
+/* Protótipo desktop: carrossel amplo, sem alterar as regras mobile existentes */
+.wm-carousel{max-width:1140px;margin:0 auto 30px}.wm-carousel-stage{position:relative}.wm-carousel .gallery-grid{display:block!important}.wm-carousel .gallery-item{width:100%;height:min(64vw,650px);min-height:420px;display:block;position:relative;overflow:hidden;border:1px solid rgba(215,159,61,.24);background:#0a0a0a;cursor:zoom-in;padding:0}.wm-carousel .gallery-item[hidden]{display:none!important}.wm-carousel .gallery-item img{width:100%;height:100%;object-fit:contain;background:#090909}.wm-carousel .gallery-item span{position:absolute;bottom:0;left:0;right:0;padding:24px 30px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff;text-align:left}.wm-car-prev,.wm-car-next{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.75);border:1px solid #bc8a38;color:#e7ba6d;font-size:38px;width:50px;height:62px;cursor:pointer;z-index:2}.wm-car-prev{left:12px}.wm-car-next{right:12px}.wm-dots{display:flex;justify-content:center;gap:12px;margin:22px 0 8px}.wm-dot{height:10px;width:10px;border-radius:50%;border:1px solid #b78a48;background:transparent;cursor:pointer;padding:0}.wm-dot.selected{background:#d9a34d}.wm-carousel .gallery-item:focus-visible,.wm-dot:focus-visible,.wm-car-prev:focus-visible,.wm-car-next:focus-visible{outline:2px solid #f4ce88;outline-offset:3px}@media(max-width:760px){.wm-carousel .gallery-item{height:58vw;min-height:260px}.wm-car-prev,.wm-car-next{width:36px;height:46px;font-size:30px}}
+
+/* Galeria autoral — versão de revisão desktop */
+@media(min-width:761px){.hero-bg{background-image:url('fotos/wm-formatura-01.webp')!important;background-position:center 43%!important}.inner-hero{background-image:linear-gradient(115deg,rgba(0,0,0,.94),rgba(0,0,0,.56)),url('fotos/wm-formatura-01.webp')!important}}
+.wm-home-gallery{padding:35px 0 45px;border-bottom:1px solid #33240f}.wm-home-gallery-head{display:flex;justify-content:space-between;gap:16px;margin-bottom:20px;align-items:center;font-size:10px;font-weight:700;letter-spacing:.12em;color:#c8a66c}.wm-home-gallery-head a{color:#eab24c}.wm-home-gallery-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}.wm-home-gallery-grid a{height:175px;overflow:hidden;background:#161616}.wm-home-gallery-grid img{width:100%;height:100%;object-fit:cover;transition:transform .25s}.wm-home-gallery-grid a:hover img{transform:scale(1.04)}.wm-dots{max-width:900px;margin-inline:auto;flex-wrap:wrap;gap:9px}.wm-dot{width:8px;height:8px;flex:none}@media(max-width:760px){.wm-home-gallery-grid{grid-template-columns:repeat(3,1fr)}.wm-home-gallery-grid a{height:135px}.wm-home-gallery-head{font-size:9px}.wm-carousel .gallery-item{min-height:320px}}
+
+.wm-services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.wm-services-grid article{background:#101010;border:1px solid #392b15;padding-bottom:24px}.wm-services-grid img{width:100%;height:310px;object-fit:cover}.wm-services-grid h3{font:600 25px 'Cormorant Garamond',serif;color:#e9b45a;margin:18px 24px 8px}.wm-services-grid p{margin:0 24px}@media(max-width:760px){.wm-services-grid{grid-template-columns:1fr}.wm-services-grid img{height:230px}}
+
+/* Revisão 14/10 — alterações visuais desktop */
+@media(min-width:761px){.hero-bg{background-image:url('assets/hero-original-wm.webp')!important;background-position:center 42%!important}.wm-carousel{max-width:none;width:100%;margin:0 auto 25px}.wm-carousel .gallery-item{height:min(76vh,880px);min-height:590px;border:0}.wm-carousel .gallery-item img{object-fit:contain}.wm-carousel-stage{width:100%}.wm-carousel .gallery-item span{font-size:10px}.wm-carousel .wm-car-prev{left:6px}.wm-carousel .wm-car-next{right:6px}.wm-carousel .wm-dots{margin-top:15px}.wm-portfolio-full{padding:18px 16px 45px!important}.wm-portfolio-full .container{max-width:none;width:100%}.wm-portfolio-full .wm-carousel{max-width:none}}
+.wm-email-wrap{padding-top:55px;padding-bottom:75px;display:grid;grid-template-columns:1fr 1.15fr;gap:70px;border-top:1px solid #3c2a13}.wm-email-heading h2{font:600 clamp(32px,4vw,54px)/1.1 'Cormorant Garamond',serif}.wm-email-heading p{font-size:13px;line-height:1.8;color:#cfc9be}.wm-email-form{display:grid;gap:18px}.wm-email-form label{font-size:11px;font-weight:600;letter-spacing:.04em;color:#d7bd91}.wm-email-form input,.wm-email-form textarea{display:block;width:100%;margin-top:9px;padding:14px 16px;background:#111;color:#fff;border:1px solid #6c4b20;border-radius:2px;font:13px Montserrat,sans-serif}.wm-email-form button{cursor:pointer;padding:15px 25px}.wm-email-note{font-size:10px;color:#aaa}.wm-blog-intro{padding-top:85px;padding-bottom:50px}.wm-blog-intro h1{font:600 clamp(50px,7vw,95px)/1 'Cormorant Garamond',serif;margin:10px 0}.wm-blog-intro>p:last-child{font-size:13px;color:#ccc;max-width:600px;line-height:1.8}.wm-blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding-bottom:90px}.wm-blog-card{border:1px solid #473315;background:#0c0c0c}.wm-blog-card>img{width:100%;height:240px;object-fit:cover}.wm-blog-card>div{padding:27px}.wm-blog-card small,.wm-blog-card span{font-size:9px;letter-spacing:.12em;color:#d5a456}.wm-blog-card h2{font:600 30px/1.05 'Cormorant Garamond',serif}.wm-blog-card p{font-size:12px;line-height:1.8;color:#ccc}.wm-blog-card span{display:block;margin-top:22px}@media(max-width:760px){.wm-email-wrap,.wm-blog-grid{grid-template-columns:1fr;gap:25px}.wm-blog-intro{padding-top:55px}.wm-blog-grid{padding-bottom:50px}}
+
+/* Revisão 14/10 — mosaico editorial e páginas internas */
+.wm-about-title{font:600 clamp(27px,3vw,42px)/1.14 'Cormorant Garamond',serif!important;letter-spacing:.012em;margin:12px 0 22px}
+.wm-mosaic{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-flow:dense;grid-auto-rows:145px;gap:9px;width:100%;max-width:1800px;margin:auto}
+.wm-mosaic .wm-mosaic-item{position:relative;display:block;width:100%;height:100%;border:0;padding:0;background:#101010;overflow:hidden;cursor:zoom-in}
+.wm-mosaic .wm-mosaic-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease,filter .3s ease}
+.wm-mosaic .wm-mosaic-item:hover img{transform:scale(1.035);filter:brightness(.9)}
+.wm-mosaic .wm-mosaic-item:nth-child(9n+1),.wm-mosaic .wm-mosaic-item:nth-child(9n+6){grid-column:span 2;grid-row:span 2}
+.wm-mosaic .wm-mosaic-item:nth-child(9n+2),.wm-mosaic .wm-mosaic-item:nth-child(9n+7){grid-row:span 2}
+.wm-mosaic .wm-mosaic-item:nth-child(9n+4){grid-column:span 2}
+.wm-portfolio-full{padding:16px 12px 52px!important}
+.wm-portfolio-full>.container{max-width:none;width:100%;padding:0}
+@media(max-width:900px){.wm-mosaic{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:120px;gap:7px}}
+@media(max-width:600px){.wm-mosaic{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:110px;gap:5px}.wm-mosaic .wm-mosaic-item:nth-child(9n+4){grid-column:span 1}.wm-portfolio-full{padding:8px 6px 32px!important}}
+
+/* Revisão: proporções originais e conteúdo editorial */
+.split{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:start;gap:clamp(28px,5vw,70px)}
+.split>img.wm-about-photo{width:100%;height:auto;aspect-ratio:7/8;object-fit:contain;object-position:center top;background:#101010}
+.wm-about-title{font:600 clamp(29px,3.1vw,43px)/1.12 'Cormorant Garamond',serif;margin:12px 0 25px;letter-spacing:.005em}
+.wm-about-closing{color:#e7b967!important;font-weight:600;margin-top:24px}
+.wm-portfolio-full{padding-top:0!important}.wm-portfolio-full>.container{max-width:1900px;width:calc(100% - 40px)}
+.wm-portfolio-heading{font:600 15px Montserrat,sans-serif;letter-spacing:.25em;text-align:center;color:#d9b679;margin:40px 0 26px}
+.wm-mosaic{display:block!important;columns:4 235px;column-gap:12px;max-width:1800px}
+.wm-mosaic .wm-mosaic-item{display:block!important;width:100%!important;height:auto!important;break-inside:avoid;margin:0 0 12px;grid-column:auto!important;grid-row:auto!important}
+.wm-mosaic .wm-mosaic-item img{width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;transform:none}
+.wm-mosaic .wm-mosaic-item:hover img{transform:scale(1.015)}
+.service-image{overflow:hidden}.service-image img{object-fit:contain!important;object-position:center!important;background:#101010}
+.wm-blog-read{display:inline-block;margin-top:18px;color:#e7b967;text-decoration:none;font:700 11px Montserrat,sans-serif;letter-spacing:.08em}.wm-blog-read:hover{text-decoration:underline}
+.wm-article{max-width:820px;padding-top:80px;padding-bottom:110px}.wm-article h1{font:600 clamp(39px,5vw,70px)/1.04 'Cormorant Garamond',serif;margin:16px 0 32px}.wm-article-cover{width:100%;max-height:550px;object-fit:contain;background:#111;margin-bottom:45px}.wm-article h2{font:600 31px 'Cormorant Garamond',serif;color:#e8c28b;margin:36px 0 12px}.wm-article p:not(.page-kicker){font:13px/1.9 Montserrat,sans-serif;color:#ddd}
+@media(max-width:760px){.split{grid-template-columns:1fr}.split>img.wm-about-photo{max-width:500px;margin:auto}.wm-mosaic{columns:2 140px;column-gap:7px}.wm-mosaic .wm-mosaic-item{margin-bottom:7px}.wm-portfolio-full>.container{width:calc(100% - 14px)}.wm-article{padding-top:50px}}
+
+/* Revisão editorial: fotografia sem barras laterais, mosaico de formatos mistos */
+@media(min-width:761px){
+ .split{grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);gap:clamp(28px,3.5vw,58px);align-items:start}
+ .split>img.wm-about-photo{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:initial;background:transparent}
+ .split>div{min-width:0}.split>div p{line-height:1.72;margin-bottom:12px}
+}
+.wm-mosaic{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:8px;grid-auto-flow:dense;gap:10px;columns:unset!important;column-gap:10px!important;align-items:start}
+.wm-mosaic .wm-mosaic-item{display:block!important;position:relative;width:100%!important;height:100%!important;margin:0!important;grid-column:auto!important;grid-row:auto!important;break-inside:auto;overflow:hidden}
+.wm-mosaic .wm-mosaic-item.wm-wide{grid-column:span 2!important}
+.wm-mosaic .wm-mosaic-item img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center center;display:block}
+.wm-mosaic .wm-mosaic-item.wm-portrait img{object-fit:cover!important}
+.service-image{background:transparent!important;overflow:hidden}
+.service-image img{width:100%;height:100%;object-fit:cover!important;object-position:center 28%!important;background:transparent!important}
+.wm-blog-card:nth-child(2)>img{object-position:center 24%!important}
+@media(max-width:900px){.wm-mosaic{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.wm-mosaic{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.wm-mosaic .wm-mosaic-item.wm-wide{grid-column:span 2!important}.split>img.wm-about-photo{aspect-ratio:auto;object-fit:contain;background:transparent}}
+
+/* Correção 14/10: elimina as faixas causadas por grid-auto-rows:8px.
+   Colunas editoriais preservam a orientação e a altura natural das imagens. */
+.wm-mosaic{display:block!important;columns:4 240px!important;column-gap:12px!important;grid-auto-rows:auto!important;max-width:1800px;}
+.wm-mosaic .wm-mosaic-item,.wm-mosaic .wm-mosaic-item.wm-wide{display:block!important;width:100%!important;height:auto!important;grid-column:auto!important;grid-row:auto!important;break-inside:avoid!important;margin:0 0 12px!important;overflow:hidden;}
+.wm-mosaic .wm-mosaic-item img,.wm-mosaic .wm-mosaic-item.wm-portrait img{display:block;width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;}
+@media(max-width:760px){.wm-mosaic{columns:2 145px!important;column-gap:7px!important}.wm-mosaic .wm-mosaic-item{margin-bottom:7px!important}}
+/* Ajuste final: proporção visual entre fotografia e texto na página Sobre. */
+@media (min-width: 761px) {
+  .inner-section > .container.split:has(.wm-about-photo) {
+    grid-template-columns: minmax(280px, 370px) minmax(0, 1fr);
+    gap: clamp(30px, 4vw, 58px);
+    max-width: 1110px;
+    align-items: center;
+  }
+  .split > img.wm-about-photo {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+    object-fit: contain;
+    justify-self: end;
+  }
+}

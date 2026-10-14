@@ -1,0 +1,8 @@
+WM FORMaturas — PROTÓTIPO MULTIPÁGINAS
+
+Abra index.html no navegador para testar.
+Páginas: index, formaturas, portfolio, videos, sobre, contato.
+Galeria com lightbox e filtros; vídeo YouTube de teste (não é salvo).
+Fotos da galeria são imagens já existentes no hotsite; substitua por fotografias individuais para o portfólio definitivo.
+Não publicar este protótipo no repositório de produção sem aprovação.
+Os links de WhatsApp e Instagram são reais.

@@ -1,0 +1,6 @@
+WM Formaturas — revisão com fotografias originais.
+Esta pasta é um protótipo local. Não altera a publicação em Cloudflare.
+Abra index.html para conferir. A galeria de Portfólio contém 34 fotografias otimizadas.
+O Hero desktop e a galeria de destaque da página inicial usam fotos reais. A arte original do CTA e o Hero mobile foram preservados.
+Os quatro cards de Serviços utilizam as imagens enviadas no ZIP Serviços(1).zip.
+Verifique as autorizações de uso de imagem, especialmente das crianças, antes da publicação.

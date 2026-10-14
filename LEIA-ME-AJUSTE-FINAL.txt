@@ -1,0 +1,6 @@
+WM Formaturas — ajuste final da página Sobre
+
+- Foto reduzida e proporcional à coluna de texto no desktop.
+- Texto institucional mantido integralmente.
+- Nenhuma outra página foi alterada.
+- Esta pasta é uma versão de teste; não foi publicada no Cloudflare.
